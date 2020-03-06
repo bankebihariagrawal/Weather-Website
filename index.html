@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <form class="text-center  text-muted my-4">
+                <label for="city" class="my-3" style="font-size: 20px;">Type a city name here</label>
+                <input type="text" class="cityName form-control text-muted p-4"   name="city" >
+                    </form>
+        <div class="card shadow-lg rounded d-none">
+            <img src="./img/night.svg" class="image card-img-top " alt="...">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+            <div class="text-muted text-uppercase text-center details ">
+                <h5 class="my-3">City name</h5>
+                <h5 class="my-3">Weather Condition</h5>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+          </div>
+    </div>
+    <script src="./AccuWeather.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
